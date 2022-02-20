@@ -9,8 +9,11 @@
   <!-- Include forked CAF -->
   <include name="omni-caf.xml" />
 
+  <!-- Include Lineage Addons -->
+  <include name="lineage-addons.xml" />
+
   <!-- OmniROM Projects -->
-  <project path="android" name="android" remote="omnirom" revision="android-7.1" />
+  <project path="android" name="android" remote="omnireload" revision="android-7.1" />
 
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs"/>
 
